@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.my-row {
+    display: flex;
+    flex-direction: column;
+}
+.mon-fieldset {
+    width: 50%; 
+}
+.mon-container {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.mon-titre {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.connection {
+    text-align: center;
+}
+.form-check-label {
+    cursor: pointer;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.mon-lien {
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (min-width : 327px) and (max-width : 974px) {
+    .mon-fieldset {
+        width: 90%;
+    }
+}

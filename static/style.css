@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid {
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+}
+.container .h1 {
+    color: rgb(232, 46, 9);
+}
+.row .btn {
+    border: 1px solid;
+    border-radius: 0;
+}
+.row .btn a {
+    color: rgba(0, 15, 16, 1);
+    text-decoration: none;
+}
+.row .btn a:hover {
+    color: rgb(159, 31, 5);
+}
+.row .btn:hover {
+    border: none;
+}
+.block {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    left: 350px;
+    color: rgba(0, 15, 16, 1);
+}   
+
+
+
+.my-row-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+#nextBtn, #backBtn {
+    cursor: pointer;
+    margin: 40px;
+    width: 50px;
+}
+.gallery div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+    flex: none;
+}
+.gallery div img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+.gallery {
+    width: 1000px;
+    display: flex;
+    overflow-x: scroll;
+}
+.gallery div img:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+

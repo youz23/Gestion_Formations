@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ma-nav {
+    z-index: 1;
+}
+
+.ma-brand {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+    background: url("../assets/technologie-domestique 1.png");
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.my-text {
+    width: 50%;
+}
+.p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.my-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* .my-row-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-row {
+    width: 1500px;
+    border: 1px solid;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.my-row::-webkit-scrollbar {
+    display: none;
+}
+
+.my-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.my-row .ma-card {
+width: 100%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.my-row .ma-card:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+#nextBtn, #backBtn {
+    cursor: pointer;
+    margin: 40px;
+    width: 50px;
+} */
+
+.ma-form {
+    font-size: 20px;
+}
+.my-input {
+    width: 60%;
+}
+
+.ma-card {
+    width: 300px;
+}
+
+.my-nav .nav-link {
+    color: rgba(9, 5, 5, 0.945);
+    font-size: 20px;
+    /* background: rgba(254, 42, 42, 0.53); */
+}
+
+.my-nav .nav-link:hover {
+    background: rgba(243, 36, 36, 0.59);
+    color: white;
+}
+
+.pagination .page-item,
+.page-link {
+    color: #ff0000;
+}
+
+.pagination .page-link:hover,
+.page-link:active{
+    color: #ff0000;
+}
+
+.consultation {
+    margin-top: 130px;
+}
+
+.footer {
+    height: 250px;
+}
+.mon-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+@media screen and (min-width : 327px) and (max-width : 768px) {
+    .my-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .ma-flex {
+        flex-direction: column;
+        display: flex;
+    }
+    .ma-flex p {
+        text-align: justify;
+    }
+    .pages {
+        display: none;
+    }
+    .container-fluid .navbar-brand {
+       width: 50%;
+       font-size: 30px;
+       position: relative;
+       left: -40px;
+    }
+    .my-text {
+      width: 90%;
+      margin-left: 20px;
+    }
+    .ma-card {
+        width: 100%;
+    }
+    .consultation {
+        margin-top: 80px;
+    }
+    .my-content {
+        margin-top: 50px;
+    }
+    .my-row-fluid {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .col-3 {
+        width: 300px;
+        padding-bottom: 20px;
+    }
+    .my-copy {
+        text-align: center;
+    }
+    .my-form {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .my-input {
+        width: 100%;
+    }
+    .btn-order {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 992px) {
+    .my-copy {
+        text-align: center;
+    }
+    .my-copy .col-3 {
+        width: 300px;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .consultation {
+        margin-top: 70px;
+    }
+    .my-content {
+        margin-top: 50px;
+    }
+    .ma-form {
+        margin-left: 55px;
+    }
+}
+
+@media screen and (min-width : 992px) and (max-width : 1120px){
+    .ma-form {
+        margin-left: -50px;
+    }
+    .ma-brand {
+        font-size: 33px;
+    }
+    .container-fluid .navbar-brand {
+        position: relative;
+        left: -40px;
+     }
+    .my-input {
+        width: 240px;
+    }
+    .ma-card {
+        width: 100%;
+    }
+    .consultation {
+        margin-top: 80px;
+    }
+    .my-content {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width : 1120px) and (max-width : 1248px){
+    
+    .ma-brand {
+        font-size: 33px;
+    }
+    
+    .my-input {
+        width: 270px;
+    }
+    .ma-card {
+        width: 100%;
+    }
+    .consultation {
+        margin-top: 80px;
+    }
+    .my-content {
+        margin-top: 50px;
+    }
+}
